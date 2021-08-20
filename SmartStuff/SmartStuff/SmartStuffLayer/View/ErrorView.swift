@@ -26,8 +26,7 @@ class ErrorView: UIView {
         configureErrorLabel()
         configureRepeatButton()
         
-        setErrorLabelConstraints()
-        setRepeatButtonConstraints()
+        self.activateErrorViewConstraints(errorLabel: errorLabel, repeatButton: repeatButton)
     }
     
     required init?(coder: NSCoder) {
@@ -58,23 +57,5 @@ class ErrorView: UIView {
         errorLabel.textColor = .white
         errorLabel.numberOfLines = 0
     }
-    
-    // Constraints
-    
-    private func setRepeatButtonConstraints() {
-        repeatButton.translatesAutoresizingMaskIntoConstraints = false
-        repeatButton.topAnchor.constraint(equalTo: errorLabel.bottomAnchor, constant: 55).isActive = true
-        repeatButton.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
-        repeatButton.widthAnchor.constraint(equalToConstant: 127).isActive = true
-        repeatButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
-    }
-    
-    private func setErrorLabelConstraints() {
-        errorLabel.translatesAutoresizingMaskIntoConstraints = false
-        errorLabel.widthAnchor.constraint(equalToConstant: 239).isActive = true
-        errorLabel.heightAnchor.constraint(equalToConstant: 58).isActive = true
-        errorLabel.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
-        errorLabel.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor, constant: 239).isActive = true
-    }
-    
+       
 }

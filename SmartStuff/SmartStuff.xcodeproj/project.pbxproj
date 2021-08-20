@@ -26,6 +26,8 @@
 		BE31DBC726CE6B57007C98CD /* SmartStuffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBC626CE6B57007C98CD /* SmartStuffView.swift */; };
 		BE31DBC926CE80FC007C98CD /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBC826CE80FC007C98CD /* ErrorView.swift */; };
 		BE31DBCB26CEDFB1007C98CD /* RequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBCA26CEDFB1007C98CD /* RequestHelper.swift */; };
+		BE31DBD326D016B1007C98CD /* LoadingView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBD226D016B1007C98CD /* LoadingView+extension.swift */; };
+		BE31DBD526D018B4007C98CD /* ErrorView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBD426D018B4007C98CD /* ErrorView+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		BE31DBC626CE6B57007C98CD /* SmartStuffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartStuffView.swift; sourceTree = "<group>"; };
 		BE31DBC826CE80FC007C98CD /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		BE31DBCA26CEDFB1007C98CD /* RequestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHelper.swift; sourceTree = "<group>"; };
+		BE31DBD226D016B1007C98CD /* LoadingView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoadingView+extension.swift"; sourceTree = "<group>"; };
+		BE31DBD426D018B4007C98CD /* ErrorView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ErrorView+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				BE31DBCA26CEDFB1007C98CD /* RequestHelper.swift */,
-				BE31DBBB26CD5996007C98CD /* CustomAlert */,
+				BE31DBBB26CD5996007C98CD /* CustomElements */,
 				BE31DB9126CBFEE5007C98CD /* AppDelegate.swift */,
 				BE31DB9326CBFEE5007C98CD /* SceneDelegate.swift */,
 				BE31DBB126CC15F5007C98CD /* UIColor+extension.swift */,
@@ -123,9 +127,10 @@
 				BE31DBAF26CC1429007C98CD /* SmartStuffCell.swift */,
 				BE31DBA726CC0E1D007C98CD /* SmartStuffView+extension.swift */,
 				BE31DBBE26CE3842007C98CD /* LoadingView.swift */,
+				BE31DBD226D016B1007C98CD /* LoadingView+extension.swift */,
 				BE31DBC226CE39DB007C98CD /* EmptyCell.swift */,
-				BE31DBC426CE58CF007C98CD /* VectorActivityIndicator.swift */,
 				BE31DBC826CE80FC007C98CD /* ErrorView.swift */,
+				BE31DBD426D018B4007C98CD /* ErrorView+extension.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -154,12 +159,13 @@
 			path = AssemblyLayer;
 			sourceTree = "<group>";
 		};
-		BE31DBBB26CD5996007C98CD /* CustomAlert */ = {
+		BE31DBBB26CD5996007C98CD /* CustomElements */ = {
 			isa = PBXGroup;
 			children = (
 				BE31DBBC26CD59A8007C98CD /* CustomAlert.swift */,
+				BE31DBC426CE58CF007C98CD /* VectorActivityIndicator.swift */,
 			);
-			path = CustomAlert;
+			path = CustomElements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,12 +240,14 @@
 				BE31DBBD26CD59A8007C98CD /* CustomAlert.swift in Sources */,
 				BE31DBC726CE6B57007C98CD /* SmartStuffView.swift in Sources */,
 				BE31DB9626CBFEE5007C98CD /* SmartStuffVC.swift in Sources */,
+				BE31DBD526D018B4007C98CD /* ErrorView+extension.swift in Sources */,
 				BE31DBCB26CEDFB1007C98CD /* RequestHelper.swift in Sources */,
 				BE31DBA826CC0E1D007C98CD /* SmartStuffView+extension.swift in Sources */,
 				BE31DBB526CD081E007C98CD /* NetworkingService.swift in Sources */,
 				BE31DBAB26CC104A007C98CD /* SmartStuffPresenter.swift in Sources */,
 				BE31DBBF26CE3843007C98CD /* LoadingView.swift in Sources */,
 				BE31DBC326CE39DB007C98CD /* EmptyCell.swift in Sources */,
+				BE31DBD326D016B1007C98CD /* LoadingView+extension.swift in Sources */,
 				BE31DB9226CBFEE5007C98CD /* AppDelegate.swift in Sources */,
 				BE31DBBA26CD33D3007C98CD /* SmartStuffAssembly.swift in Sources */,
 				BE31DBC526CE58CF007C98CD /* VectorActivityIndicator.swift in Sources */,
