@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		BE31DB9226CBFEE5007C98CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DB9126CBFEE5007C98CD /* AppDelegate.swift */; };
 		BE31DB9426CBFEE5007C98CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DB9326CBFEE5007C98CD /* SceneDelegate.swift */; };
-		BE31DB9626CBFEE5007C98CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DB9526CBFEE5007C98CD /* ViewController.swift */; };
-		BE31DB9926CBFEE5007C98CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE31DB9726CBFEE5007C98CD /* Main.storyboard */; };
+		BE31DB9626CBFEE5007C98CD /* SmartStuffVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DB9526CBFEE5007C98CD /* SmartStuffVC.swift */; };
 		BE31DB9B26CBFEE9007C98CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE31DB9A26CBFEE9007C98CD /* Assets.xcassets */; };
 		BE31DB9E26CBFEE9007C98CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE31DB9C26CBFEE9007C98CD /* LaunchScreen.storyboard */; };
+		BE31DBA826CC0E1D007C98CD /* SmartStuffView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBA726CC0E1D007C98CD /* SmartStuffView+extension.swift */; };
+		BE31DBAB26CC104A007C98CD /* SmartStuffPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBAA26CC104A007C98CD /* SmartStuffPresenter.swift */; };
+		BE31DBB026CC1429007C98CD /* SmartStuffCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBAF26CC1429007C98CD /* SmartStuffCell.swift */; };
+		BE31DBB226CC15F5007C98CD /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBB126CC15F5007C98CD /* UIColor+extension.swift */; };
+		BE31DBB526CD081E007C98CD /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBB426CD081E007C98CD /* NetworkingService.swift */; };
+		BE31DBB726CD0C20007C98CD /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBB626CD0C20007C98CD /* Device.swift */; };
+		BE31DBBA26CD33D3007C98CD /* SmartStuffAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBB926CD33D3007C98CD /* SmartStuffAssembly.swift */; };
+		BE31DBBD26CD59A8007C98CD /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBBC26CD59A8007C98CD /* CustomAlert.swift */; };
+		BE31DBBF26CE3843007C98CD /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBBE26CE3842007C98CD /* LoadingView.swift */; };
+		BE31DBC326CE39DB007C98CD /* EmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBC226CE39DB007C98CD /* EmptyCell.swift */; };
+		BE31DBC526CE58CF007C98CD /* VectorActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBC426CE58CF007C98CD /* VectorActivityIndicator.swift */; };
+		BE31DBC726CE6B57007C98CD /* SmartStuffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBC626CE6B57007C98CD /* SmartStuffView.swift */; };
+		BE31DBC926CE80FC007C98CD /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBC826CE80FC007C98CD /* ErrorView.swift */; };
+		BE31DBCB26CEDFB1007C98CD /* RequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31DBCA26CEDFB1007C98CD /* RequestHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BE31DB8E26CBFEE5007C98CD /* SmartStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartStuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE31DB9126CBFEE5007C98CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE31DB9326CBFEE5007C98CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE31DB9526CBFEE5007C98CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE31DB9826CBFEE5007C98CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE31DB9526CBFEE5007C98CD /* SmartStuffVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartStuffVC.swift; sourceTree = "<group>"; };
 		BE31DB9A26CBFEE9007C98CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE31DB9D26CBFEE9007C98CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE31DB9F26CBFEE9007C98CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE31DBA726CC0E1D007C98CD /* SmartStuffView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SmartStuffView+extension.swift"; sourceTree = "<group>"; };
+		BE31DBAA26CC104A007C98CD /* SmartStuffPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartStuffPresenter.swift; sourceTree = "<group>"; };
+		BE31DBAF26CC1429007C98CD /* SmartStuffCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartStuffCell.swift; sourceTree = "<group>"; };
+		BE31DBB126CC15F5007C98CD /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		BE31DBB426CD081E007C98CD /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		BE31DBB626CD0C20007C98CD /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		BE31DBB926CD33D3007C98CD /* SmartStuffAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartStuffAssembly.swift; sourceTree = "<group>"; };
+		BE31DBBC26CD59A8007C98CD /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		BE31DBBE26CE3842007C98CD /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		BE31DBC226CE39DB007C98CD /* EmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCell.swift; sourceTree = "<group>"; };
+		BE31DBC426CE58CF007C98CD /* VectorActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorActivityIndicator.swift; sourceTree = "<group>"; };
+		BE31DBC626CE6B57007C98CD /* SmartStuffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartStuffView.swift; sourceTree = "<group>"; };
+		BE31DBC826CE80FC007C98CD /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		BE31DBCA26CEDFB1007C98CD /* RequestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +82,84 @@
 		BE31DB9026CBFEE5007C98CD /* SmartStuff */ = {
 			isa = PBXGroup;
 			children = (
+				BE31DBCA26CEDFB1007C98CD /* RequestHelper.swift */,
+				BE31DBBB26CD5996007C98CD /* CustomAlert */,
 				BE31DB9126CBFEE5007C98CD /* AppDelegate.swift */,
 				BE31DB9326CBFEE5007C98CD /* SceneDelegate.swift */,
-				BE31DB9526CBFEE5007C98CD /* ViewController.swift */,
-				BE31DB9726CBFEE5007C98CD /* Main.storyboard */,
+				BE31DBB126CC15F5007C98CD /* UIColor+extension.swift */,
+				BE31DBB826CD33A5007C98CD /* AssemblyLayer */,
+				BE31DBB326CD07FE007C98CD /* NetworkLayer */,
+				BE31DBA926CC0E26007C98CD /* SmartStuffLayer */,
 				BE31DB9A26CBFEE9007C98CD /* Assets.xcassets */,
 				BE31DB9C26CBFEE9007C98CD /* LaunchScreen.storyboard */,
 				BE31DB9F26CBFEE9007C98CD /* Info.plist */,
 			);
 			path = SmartStuff;
+			sourceTree = "<group>";
+		};
+		BE31DBA926CC0E26007C98CD /* SmartStuffLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BE31DBAE26CC1136007C98CD /* Model */,
+				BE31DBAD26CC112F007C98CD /* View */,
+				BE31DBAC26CC1121007C98CD /* Presenter */,
+			);
+			path = SmartStuffLayer;
+			sourceTree = "<group>";
+		};
+		BE31DBAC26CC1121007C98CD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BE31DBAA26CC104A007C98CD /* SmartStuffPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BE31DBAD26CC112F007C98CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE31DB9526CBFEE5007C98CD /* SmartStuffVC.swift */,
+				BE31DBC626CE6B57007C98CD /* SmartStuffView.swift */,
+				BE31DBAF26CC1429007C98CD /* SmartStuffCell.swift */,
+				BE31DBA726CC0E1D007C98CD /* SmartStuffView+extension.swift */,
+				BE31DBBE26CE3842007C98CD /* LoadingView.swift */,
+				BE31DBC226CE39DB007C98CD /* EmptyCell.swift */,
+				BE31DBC426CE58CF007C98CD /* VectorActivityIndicator.swift */,
+				BE31DBC826CE80FC007C98CD /* ErrorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE31DBAE26CC1136007C98CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE31DBB626CD0C20007C98CD /* Device.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE31DBB326CD07FE007C98CD /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BE31DBB426CD081E007C98CD /* NetworkingService.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		BE31DBB826CD33A5007C98CD /* AssemblyLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BE31DBB926CD33D3007C98CD /* SmartStuffAssembly.swift */,
+			);
+			path = AssemblyLayer;
+			sourceTree = "<group>";
+		};
+		BE31DBBB26CD5996007C98CD /* CustomAlert */ = {
+			isa = PBXGroup;
+			children = (
+				BE31DBBC26CD59A8007C98CD /* CustomAlert.swift */,
+			);
+			path = CustomAlert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +221,6 @@
 			files = (
 				BE31DB9E26CBFEE9007C98CD /* LaunchScreen.storyboard in Resources */,
 				BE31DB9B26CBFEE9007C98CD /* Assets.xcassets in Resources */,
-				BE31DB9926CBFEE5007C98CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +231,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE31DB9626CBFEE5007C98CD /* ViewController.swift in Sources */,
+				BE31DBBD26CD59A8007C98CD /* CustomAlert.swift in Sources */,
+				BE31DBC726CE6B57007C98CD /* SmartStuffView.swift in Sources */,
+				BE31DB9626CBFEE5007C98CD /* SmartStuffVC.swift in Sources */,
+				BE31DBCB26CEDFB1007C98CD /* RequestHelper.swift in Sources */,
+				BE31DBA826CC0E1D007C98CD /* SmartStuffView+extension.swift in Sources */,
+				BE31DBB526CD081E007C98CD /* NetworkingService.swift in Sources */,
+				BE31DBAB26CC104A007C98CD /* SmartStuffPresenter.swift in Sources */,
+				BE31DBBF26CE3843007C98CD /* LoadingView.swift in Sources */,
+				BE31DBC326CE39DB007C98CD /* EmptyCell.swift in Sources */,
 				BE31DB9226CBFEE5007C98CD /* AppDelegate.swift in Sources */,
+				BE31DBBA26CD33D3007C98CD /* SmartStuffAssembly.swift in Sources */,
+				BE31DBC526CE58CF007C98CD /* VectorActivityIndicator.swift in Sources */,
 				BE31DB9426CBFEE5007C98CD /* SceneDelegate.swift in Sources */,
+				BE31DBB026CC1429007C98CD /* SmartStuffCell.swift in Sources */,
+				BE31DBB226CC15F5007C98CD /* UIColor+extension.swift in Sources */,
+				BE31DBB726CD0C20007C98CD /* Device.swift in Sources */,
+				BE31DBC926CE80FC007C98CD /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BE31DB9726CBFEE5007C98CD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE31DB9826CBFEE5007C98CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BE31DB9C26CBFEE9007C98CD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
