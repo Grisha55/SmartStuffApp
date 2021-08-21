@@ -10,6 +10,7 @@ import UIKit
 class EmptyCell: UITableViewCell {
 
     // MARK: - Propterties
+    
     static let identifier = "EmptyCell"
     private let pointView = UIView()
     private let networkStatusView = UIView()

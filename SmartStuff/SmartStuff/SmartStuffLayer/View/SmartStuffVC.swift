@@ -76,6 +76,7 @@ class SmartStuffVC: UIViewController, SmartStuffViewProtocol {
     
 }
 
+// MARK: - ErrorViewDelegate
 extension SmartStuffVC: ErrorViewDelegate {
     func repeatAction() {
         self.view = self.loadingView
@@ -95,6 +96,7 @@ extension SmartStuffVC: ErrorViewDelegate {
     }
 }
 
+// MARK: - SmartStuffViewDelegate
 extension SmartStuffVC: SmartStuffViewDelegate {
     func updateButtonAction() {
         self.view = self.loadingView

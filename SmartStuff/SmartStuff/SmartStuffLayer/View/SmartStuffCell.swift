@@ -10,6 +10,7 @@ import UIKit
 class SmartStuffCell: UITableViewCell {
 
     // MARK: - Propterties
+    
     static let identifier = "SmartStuffCell"
     private let networkStatusLabel = UILabel()
     private let nameLabel = UILabel()

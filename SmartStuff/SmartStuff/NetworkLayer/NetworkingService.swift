@@ -14,7 +14,6 @@ protocol NetworkingServiceProtocol: AnyObject {
 }
 
 class NetworkingService: NetworkingServiceProtocol {
-    // https://dev.api.sls.ompr.io/api/v1.1/test/devices/reset-deleted
     
     func resetDeletedDevices() {
         let configuration = URLSessionConfiguration.default

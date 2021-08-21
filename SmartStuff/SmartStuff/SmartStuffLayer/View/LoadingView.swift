@@ -70,6 +70,7 @@ class LoadingView: UIView {
     
 }
 
+// MARK: - UITableViewDataSource
 extension LoadingView: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
