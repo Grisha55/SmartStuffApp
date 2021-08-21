@@ -8,7 +8,7 @@
 import UIKit
 
 class SmartStuffCell: UITableViewCell {
-
+    
     // MARK: - Propterties
     
     static let identifier = "SmartStuffCell"

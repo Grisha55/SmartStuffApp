@@ -8,7 +8,7 @@
 import UIKit
 
 class LoadingView: UIView {
-
+    
     // MARK: - Properties
     
     private let smartStuffLabel = UILabel()

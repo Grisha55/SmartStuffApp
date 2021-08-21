@@ -17,7 +17,7 @@ class ErrorView: UIView {
     
     private let errorLabel = UILabel()
     private let repeatButton = UIButton()
-    var errorViewDelegate: ErrorViewDelegate?
+    weak var errorViewDelegate: ErrorViewDelegate?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -57,5 +57,5 @@ class ErrorView: UIView {
         errorLabel.textColor = .white
         errorLabel.numberOfLines = 0
     }
-       
+    
 }

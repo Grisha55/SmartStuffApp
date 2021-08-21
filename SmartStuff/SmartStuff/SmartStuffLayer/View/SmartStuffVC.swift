@@ -142,7 +142,7 @@ extension SmartStuffVC: UITableViewDataSource {
         var networkStatus = ""
         var workStatus = ""
         var time = device?.lastWorkTime ?? 0
-
+        
         guard let status = device?.isOnline else { return UITableViewCell() }
         if status {
             networkStatus = "🟢 Online"

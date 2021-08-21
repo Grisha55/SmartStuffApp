@@ -8,7 +8,7 @@
 import UIKit
 
 class EmptyCell: UITableViewCell {
-
+    
     // MARK: - Propterties
     
     static let identifier = "EmptyCell"

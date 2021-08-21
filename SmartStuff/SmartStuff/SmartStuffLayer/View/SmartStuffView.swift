@@ -96,17 +96,17 @@ class SmartStuffView: UIView {
         self.addSubview(smartStuffLabel)
         
         smartStuffLabel.textColor = .customPurple
-
+        
         smartStuffLabel.font = smartStuffLabel.font.withSize(24)
-
+        
         smartStuffLabel.numberOfLines = 0
-
+        
         smartStuffLabel.lineBreakMode = .byWordWrapping
-
+        
         let paragraphStyle = NSMutableParagraphStyle()
-
+        
         paragraphStyle.lineHeightMultiple = 0.71
-
+        
         smartStuffLabel.attributedText = NSMutableAttributedString(string: "Умные вещи", attributes: [NSAttributedString.Key.paragraphStyle: paragraphStyle])
     }
 }

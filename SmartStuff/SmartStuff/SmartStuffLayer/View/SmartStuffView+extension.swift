@@ -14,8 +14,6 @@ extension SmartStuffView {
         self.setTableViewConstraints(tableView: tableView, smartStuffLabel: smartStuffLabel)
         self.setUpdateButtonConstraints(updateButton: updateButton)
         self.setCustomAlertConstraints(customAlert: customAlert)
-        //self.setErrorLabelConstraints(errorLabel: errorLabel)
-        //self.setRepeatButtonConstraints(repeatButton: repeatButton, errorLabel: errorLabel)
     }
     
     private func setRepeatButtonConstraints(repeatButton: UIButton, errorLabel: UILabel) {
